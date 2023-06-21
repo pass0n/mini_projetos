@@ -1,0 +1,73 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 100vh;
+  background: #121214 var(--bg) no-repeat top center/cover;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 57.6rem;
+  height: 30.6rem;
+
+  background-color: var(--bg-color);
+  border-bottom: 0.2rem solid var(--color-primary);
+  border-radius: 0.6rem;
+}
+
+.card {
+  margin-bottom: 3rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card h2 {
+  color: var(--title-color);
+  font-size: 1.4rem;
+  text-transform: uppercase;
+
+  background: var(--bg-color);
+  padding-bottom: 0.5rem;
+  border-bottom: 0.2rem solid var(--white);
+  border-radius: 0.6rem;
+}
+
+.card img {
+  width: 5rem;
+  display: block;
+  margin: 2rem 0 4rem 0;
+}
+
+.card .score :is(strong, span) {
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 125%;
+
+  color: var(--white);
+}
+
+.team--one,
+.team--two {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 10vw;
+}
+
+.score {
+    padding-inline: 3rem;
+  }
+
+.score span {
+    display: inline-block;
+    margin: 0 .7rem;
+}

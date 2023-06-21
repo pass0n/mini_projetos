@@ -1,0 +1,28 @@
+button {
+  background-color: var(--title-button);
+  border: 0.2rem solid var(--title-button);
+
+  padding: 0.5rem 2rem;
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 1.6rem;
+
+  cursor: pointer;
+  color: var(--button);
+
+  transition-duration: 0.3s;
+}
+
+button:hover {
+  color: var(--bg-color);
+}
+
+.team--one button:hover {
+  background-color: var(--color-primary);
+  border: 0.2rem solid var(--color-primary);
+}
+
+.team--two button:hover {
+  background-color: #227cf2;
+  border: 0.2rem solid #227cf2;
+}
